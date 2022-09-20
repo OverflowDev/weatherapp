@@ -45,7 +45,7 @@ function Weather() {
               {/* Description  */}
               {/* degree  */}
               <div className='flex justify-center items-center'>
-                <h1 className='font-bold text-9xl uppercase text-blue-900'>
+                <h1 className='font-bold text-9xl uppercase text-black'>
                   {loc.main ? 
                     <p>
                       {loc.main.temp.toFixed()}<span className='text-blue-400 text-9xl'>°</span>
